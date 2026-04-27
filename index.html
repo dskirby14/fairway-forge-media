@@ -11,10 +11,57 @@
         h1, h2 { font-family: 'Playfair Display', serif; }
     </style>
 </head>
-<body class="bg-white text-slate-800 p-8">
+
+<body class="bg-white text-slate-800">
+
+    <header class="w-full bg-white">
+        <div class="py-10 text-center">
+            <h1 class="text-6xl font-bold tracking-tighter text-slate-950">FAIRWAY FORGE</h1>
+            <p class="text-sm tracking-widest text-slate-500 uppercase mt-2">Media & Technical Analysis</p>
+        </div>
+
+        <nav class="w-full bg-slate-900 text-white py-4 shadow-md">
+                        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+                
+                <div class="flex gap-8 font-medium text-sm uppercase tracking-wide">
+                    <a href="#" class="hover:text-blue-400 transition">PGA Tour</a>
+                    <a href="#" class="hover:text-blue-400 transition">Tech Lab</a>
+                    <a href="#" class="hover:text-blue-400 transition">Data</a>
+                    <a href="#" class="hover:text-blue-400 transition">Press Kit</a>
+                </div>
+
+                <div class="flex gap-4">
+                    <button class="hover:text-blue-400">☰</button>
+                    <button class="hover:text-blue-400">🔍</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="relative w-full h-[60vh] flex items-center justify-center overflow-hidden">
+        
+        <img src="heroimgpin.jpg" alt="R&D Lab" class="absolute inset-0 w-full h-full object-cover" />
+        
+        <div class="absolute inset-0 bg-black/60"></div>
+        
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-bold text-white font-serif tracking-tight">
+                Engineering the Future.
+            </h1>
+            <p class="mt-6 text-xl text-slate-200 max-w-2xl mx-auto">
+                Technical deep-dives into the hardware and data infrastructure of modern professional golf.
+            </p>
+            <div class="mt-10">
+                <a href="#lab" class="px-8 py-4 bg-white text-slate-900 font-bold rounded hover:bg-slate-200 transition">
+                    Explore The Lab
+                </a>
+            </div>
+        </div>
+    </section>
+
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <div class="md:col-span-3 p-10 bg-slate-50 rounded-lg border border-slate-200">
+        <div class="md:col-span-3 p-10 bg-slate-200 rounded-lg border border-slate-300 mt-12">
             <h1 class="text-6xl font-bold tracking-tight text-slate-950">Fairway Forge Media</h1>
             <p class="mt-4 text-slate-700 max-w-2xl text-xl">Reverse-engineering the intersection of professional sports and emerging technology.</p>
         </div>
