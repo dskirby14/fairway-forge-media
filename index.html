@@ -19,26 +19,24 @@
             <h1 class="text-6xl font-bold tracking-tighter text-slate-950">FAIRWAY FORGE</h1>
             <p class="text-sm tracking-widest text-slate-500 uppercase mt-2">Media & Technical Analysis</p>
         </div>
-
-        <nav class="w-full bg-slate-900 text-white py-4 shadow-md">
-                        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
-                
-                <div class="flex gap-8 font-medium text-sm uppercase tracking-wide">
-                    <a href="#" class="hover:text-blue-400 transition">PGA Tour</a>
-                    <a href="#" class="hover:text-blue-400 transition">Tech Lab</a>
-                    <a href="#" class="hover:text-blue-400 transition">Data</a>
-                    <a href="#" class="hover:text-blue-400 transition">Press Kit</a>
-                </div>
-
-                <div class="flex gap-4">
-                    <button class="hover:text-blue-400">☰</button>
-                    <button class="hover:text-blue-400">🔍</button>
-                </div>
-            </div>
-        </nav>
     </header>
 
-    <section class="relative w-full h-[60vh] flex items-center justify-center overflow-hidden">
+    <nav class="sticky top-0 z-50 w-full bg-slate-900 text-white py-4 shadow-lg">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <div class="flex gap-8 font-medium text-sm uppercase tracking-wide">
+                <a href="#" class="hover:text-blue-400 transition">PGA Tour</a>
+                <a href="#" class="hover:text-blue-400 transition">Tech Lab</a>
+                <a href="#" class="hover:text-blue-400 transition">Data</a>
+                <a href="#" class="hover:text-blue-400 transition">Press Kit</a>
+            </div>
+            <div class="flex gap-4">
+                <button class="hover:text-blue-400">☰</button>
+                <button class="hover:text-blue-400">🔍</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative w-full h-[60vh] flex items-center justify-center">
         
         <img src="heroimgpin.jpg" alt="R&D Lab" class="absolute inset-0 w-full h-full object-cover" />
         
@@ -49,7 +47,7 @@
                 Engineering the Future.
             </h1>
             <p class="mt-6 text-xl text-slate-200 max-w-2xl mx-auto">
-                Technical deep-dives into the hardware and data infrastructure of modern professional golf.
+                Reverse-engineering the intersection of professional sports and emerging technology.
             </p>
             <div class="mt-10">
                 <a href="#lab" class="px-8 py-4 bg-white text-slate-900 font-bold rounded hover:bg-slate-200 transition">
@@ -59,13 +57,8 @@
         </div>
     </section>
 
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         
-        <div class="md:col-span-3 p-10 bg-slate-200 rounded-lg border border-slate-300 mt-12">
-            <h1 class="text-6xl font-bold tracking-tight text-slate-950">Fairway Forge Media</h1>
-            <p class="mt-4 text-slate-700 max-w-2xl text-xl">Reverse-engineering the intersection of professional sports and emerging technology.</p>
-        </div>
-
         <div class="p-8 bg-slate-50 rounded-lg border border-slate-200">
             <h2 class="text-2xl font-bold text-slate-950 mb-2">The Lab</h2>
             <p class="text-slate-700">3D printing and DIY golf tech projects.</p>
@@ -82,5 +75,45 @@
         </div>
         
     </div>
+
+    <footer class="w-full bg-slate-950 text-slate-300 py-16 px-6 mt-10">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Fairway Forge</h3>
+                <p class="text-sm">Engineering, data architecture, and technical reporting for the modern golf industry.</p>
+            </div>
+
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Categories</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="analysis.html" class="hover:text-white transition">Technical Analysis</a></li>
+                    <li><a href="tech-lab.html" class="hover:text-white transition">The Lab</a></li>
+                    <li><a href="data.html" class="hover:text-white transition">Data Reports</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Resources</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="press-kit.html" class="hover:text-white transition">Media Kit</a></li>
+                    <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                    <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">Stay Informed</h3>
+                <p class="text-sm mb-4">Get our latest technical deep-dives delivered to your inbox.</p>
+                <input type="email" placeholder="Email address" class="w-full p-2 bg-slate-800 rounded border border-slate-700 text-sm focus:outline-none focus:border-blue-500">
+            </div>
+
+        </div>
+        
+        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+            &copy; 2026 Fairway Forge Media. All rights reserved.
+        </div>
+    </footer>
+
 </body>
 </html>
